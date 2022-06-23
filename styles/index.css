@@ -1,0 +1,96 @@
+
+.encabezado{
+    margin-left: 5%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.encabezado img{
+	width: 75px;
+    height: 75px;
+}
+
+.encabezado h1{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.redes{
+    height:10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+.redes img{
+    margin: 10px;
+}
+
+.redes img:hover{
+    width: 60px;
+    height: 60px;
+}
+
+hr {
+    line-height: 50px;
+    background-color: black;
+}
+
+/*.container{
+
+}*/
+
+.cards {
+    display: flex;
+}
+
+.cards img{
+    width: 250px;
+    height: 350px;
+    margin: -30px;
+    margin-top: 30px;
+    margin-left: 30px;
+     
+}
+
+.cards #africa{
+    transform: rotate(-5deg);
+}
+
+.cards #asia{
+    height: 300px;
+    transform: rotate(8deg);
+}
+.cards #europa{
+    transform: rotate(-3deg);
+}
+.cards #oceania{
+    margin-top: 60px;
+    height: 300px;
+    transform: rotate(6deg);
+}
+.cards #america{
+    transform: rotate(-3deg);
+}
+
+.cards img:hover{
+    transform: rotate(0deg);
+}
+.tarjeta{
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+    padding: 20px
+}
+
+.imagen{
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+.detalle{
+    width: 100%;
+    margin-top: 50px;
+}
+
+

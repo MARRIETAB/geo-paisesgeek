@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/detalleForm.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container3" id="container3">
+        <div id="button">
+            <a href="../index.html"><button>Volver</button></a>
+        </div>
+        <div class="detalle2" id="detalle2">
+
+        </div>
+        <div class="form" id="form">
+            <form action="">
+                <h2>Agenda tu cita aquí</h2>
+                <input id="destinoForm" type="text" placeholder="destinoForm" disabled>
+                <input id="continenteForm" type="text" placeholder="continenteForm" disabled>
+                <input id="fechaIda" type="date" name="fechaIda">
+                <input id="fechaRegre" type="date" name="fechaRegre">
+                <textarea id="coment" type="text" name="coment"></textarea>
+                <button id="btnForm" type="button">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../data/data.js" type="module"></script>
+    <script src="../script/detalle.js" type="module"></script>
+    <script src="../script/mostrarDetalle.js" type="module"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../script/validarForm.js" type="module"></script>
+    
+</body>
+</html>
